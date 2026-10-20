@@ -1,0 +1,14 @@
+{
+  "name": "muscle-minded-fitness-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Muscle Minded Fitness supplement storefront with optional Stripe Checkout",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "stripe": "^17.5.0"
+  }
+}
